@@ -7,7 +7,7 @@ A Codex skill for coordinating non-trivial software work: it selects the appropr
 Run this from an environment with Codex's `skill-installer` helper available:
 
 ```bash
-python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo cpgroup-int/software-project-manager-skill \
   --path software-project-manager
 ```
