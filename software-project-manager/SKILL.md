@@ -20,6 +20,12 @@ Do not copy or replace the underlying skills. Invoke or read the specific skill 
 5. Persist important project decisions in memory or project docs.
 6. Work in English by default, including issues, branches, PRs, docs, and code comments. German input is acceptable; translate requirements into English working artifacts.
 
+## Required Skill Availability
+
+Before starting a routed phase, check whether the selected sub-skill is available. If it is missing, use the agent's skill-installer workflow to install that named skill from its configured or canonical source before continuing. Do not silently skip a required sub-skill or substitute an ad-hoc workflow.
+
+If the installer cannot identify or access a source for the sub-skill, report the missing dependency and request the source or installation approval. This skill repository intentionally contains only the project-manager skill; it does not bundle sub-skills.
+
 ## Skill Routing
 
 - General development lifecycle: use `using-agent-skills` first, then the relevant Addy Osmani workflow skill:

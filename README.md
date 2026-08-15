@@ -21,3 +21,5 @@ The skill will be available in a new Codex turn after installation.
 ## Scope
 
 The skill is an orchestrator. It directs software work to focused skills such as planning, testing, debugging, source research, GitHub workflow, and quality review rather than duplicating them.
+
+When it selects one of those sub-skills, it instructs the host agent to install the selected skill first if it is not already available. Sub-skills are not bundled in this repository.
